@@ -1,8 +1,8 @@
 {
-  "name": "libraryexpress",
+  "name": "errorhunt-library",
   "version": "1.0.0",
   "description": "",
-  "main": "node app.js", 
+  "main": "app.js", 
   "dependencies": {
     "body-parser": "^1.19.0",
     "cors": "^2.8.5",
@@ -11,8 +11,13 @@
     "mongoose": "^5.7.12"
   },
   "devDependencies": {},
+
+ 
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node app.js"
+ },
+ "engines": {
+  "node": "16.14.2"
   },
   "author": "aiswarya",
   "license": "ISC",
